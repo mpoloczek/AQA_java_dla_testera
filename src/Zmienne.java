@@ -14,7 +14,7 @@ public class Zmienne {
         System.out.println(doubleNumber);
 
         //Zmienna dla tekst
-        String someText = "to jest jakiś teks";
+        String someText = "to jest jakiś tekst";
         System.out.println(someText);
 
         //Zmienna dla pojedyńczy znak
