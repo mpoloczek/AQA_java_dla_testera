@@ -37,6 +37,20 @@ public class User {
     void greetings(String name) {
         System.out.println("HI " + name + ". Nice to see you");
     }
+    void greetings(String firstName, String lastName) {
+        System.out.println("HI " + firstName + " " + lastName + ". Nice to see you");
+    }
+
+
+
+
+    void howOldAreYou(String name, int userAge) {
+        System.out.println("HI " + name + " you are " + userAge + " old");
+    }
+
+    int yourAgePlus10(int userAge) {
+        return userAge + 10;
+    }
 
 }
 

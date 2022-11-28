@@ -22,6 +22,12 @@ public class MainApp {
         System.out.println("Czy Bartek jest dorosły : " + userAdult);
 
         bartek.greetings("Bartek");
+        bartek.greetings("Bartek", "Testowy");
+        bartek.howOldAreYou("Bartek", 17);
+
+        int bartekAgePlus10 = bartek.yourAgePlus10(17);
+        System.out.println(bartekAgePlus10);
+
 
         User tomek = new User();
         tomek.firstName = "Tomek";
@@ -34,6 +40,8 @@ public class MainApp {
 
         boolean isTomekAdult = tomek.isUserAdult();
         System.out.println(isTomekAdult);
+
+        System.out.println(tomek.yourAgePlus10(tomek.age));
 
     }
 }
