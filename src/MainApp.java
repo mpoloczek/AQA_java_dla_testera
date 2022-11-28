@@ -6,7 +6,10 @@ public class MainApp {
 
         // Typ nazwa = nowy obiekt;
 
-        User bartek = new User();
+        User bartek = new User(); // wywołanie konstruktora
+
+        User bartek1 = new User("Bartek1", "Testowy1", "bartek1@testowy.com", 25, true); // wywołanie konstruktora
+
         bartek.firstName = "Bartek";
         bartek.lastName = "Testowy";
         bartek.email = "bartek@testowy.com";
