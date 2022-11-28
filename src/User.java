@@ -15,13 +15,13 @@ public class User {
     // NAZWA KONSTRUKTORA JEST TAKA SAMA JAK NAZWA KLASY
     // KONSTRUKTOR PISZEMY WIELKĄ LITERĄ
     // KONSTRUKTOR NIE MA ZWRACANEGO TYPU
+    User(String firstName, String lastName, String email, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.age = age;
+        this.isAdult = isUserAdult();
 
-    User() {
-
-    }
-
-    User(String firstNameParam, String lastNameParam, String emailParam, int ageParam, boolean isAdultParam) {
-        System.out.println(firstNameParam + " " + lastNameParam + " " + emailParam + " " + ageParam + " " + isAdultParam);
     }
 
     // 2. METODY
